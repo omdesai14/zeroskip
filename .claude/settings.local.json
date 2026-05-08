@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\(''app.py''\\).read\\(\\)\\); ast.parse\\(open\\(''database.py''\\).read\\(\\)\\); ast.parse\\(open\\(''ai_engine.py''\\).read\\(\\)\\); print\\(''All files parse OK''\\)\")",
+      "Read(//Users/omdesai/Downloads/**)",
+      "Bash(python -m markitdown /Users/omdesai/Downloads/grep-lite-presentation.pptx)",
+      "Bash(python3 -m markitdown /Users/omdesai/Downloads/grep-lite-presentation.pptx)",
+      "Bash(pip3 install:*)",
+      "Read(//Users/omdesai/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/0b3fc57c-b679-416a-bfa2-45579fabac3e/e68144ef-77e2-441d-91d9-dca7f865a020/skills/pptx/**)",
+      "Read(//Users/omdesai/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/0b3fc57c-b679-416a-bfa2-45579fabac3e/e68144ef-77e2-441d-91d9-dca7f865a020/skills/pptx/scripts/**)",
+      "Bash(SKILL=\"/Users/omdesai/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/0b3fc57c-b679-416a-bfa2-45579fabac3e/e68144ef-77e2-441d-91d9-dca7f865a020/skills/pptx\")",
+      "Read(//private/tmp/zeroskip-pres/**)",
+      "Bash(python3 \"$SKILL/scripts/thumbnail.py\" /Users/omdesai/Downloads/grep-lite-presentation.pptx)",
+      "Bash(brew list:*)",
+      "Bash(mkdir -p /tmp/zerodeck/media)",
+      "Bash(cp /tmp/grepunpack/ppt/media/Slide-1-image-1.png /tmp/zerodeck/media/hero.png)",
+      "Bash(cp /tmp/grepunpack/ppt/media/Slide-2-image-1.png /tmp/zerodeck/media/dark.png)",
+      "Bash(cp /tmp/grepunpack/ppt/media/image-2-2.png /tmp/zerodeck/media/card-rose.png)",
+      "Bash(cp /tmp/grepunpack/ppt/media/image-2-3.png /tmp/zerodeck/media/card-violet.png)",
+      "Bash(python3 build.py)",
+      "Bash(python3 -m markitdown /Users/omdesai/Downloads/zeroskip-presentation.pptx)",
+      "Bash(brew install:*)",
+      "Bash(soffice --headless --convert-to pdf /Users/omdesai/Downloads/zeroskip-presentation.pptx)",
+      "Bash(ls -la /tmp/zerodeck/*.pdf)",
+      "Bash(soffice --headless --convert-to pdf /Users/omdesai/Downloads/zeroskip-presentation.pptx --outdir /tmp/zerodeck)",
+      "Bash(source .venv/bin/activate)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\(''app.py''\\).read\\(\\)\\); ast.parse\\(open\\(''database.py''\\).read\\(\\)\\); print\\(''OK: syntax valid''\\)\")",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\(''app.py''\\).read\\(\\)\\); ast.parse\\(open\\(''database.py''\\).read\\(\\)\\); print\\(''OK: syntax valid''\\)\")",
+      "Bash(source /Users/omdesai/ai-accountability-system/.venv/bin/activate)",
+      "Bash(streamlit run:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(python -c \":*)"
+    ]
+  }
+}
